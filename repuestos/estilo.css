@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 1px;
+	background-color: lightblue;
+	box-sizing: border-box;
+
+}
+    
+.galeria{
+	padding-bottom: 1em;
+	padding-top: 1em;
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 400px;
+	
+}
+.galeria_img{
+	width: 100%;
+	height: 100%;
+}
+.heladeras{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 400px;
+}
+
+.flex-container{
+	display: inline-flex;
+	background-color: steelblue;
+	padding: 5px;
+	border: 4px solid lightgreen;
+}
+
+.flex-container div{
+	width: 150px;
+	margin: 50px;
+	background-color: lightgreen;
+	opacity: 70%;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	border: 2px solid lightgreen;
+}
+
+.lavas{
+	padding-bottom: 1em;
+	padding-top: 1em;
+	display: grid;
+	max-width: 300%;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: 400px;
+	grid-template-areas: "img1 img2 img3";
+}
+
+.Circle{
+		margin-top: 30px;
+	margin-left: 20px;
+	width: 150px;
+	height: 150px;
+	background: darkgreen;
+	border-radius: 50%;
+
+/* animation: ; */
+animation-name: mover;
+animation-duration: 3s;
+animation-iteration-count: 3;
+animation-direction: normal;
+/* animation-fill-mode: both ; */
+/* animation-delay:  2s; */
+animation-timing-function: linear;
+
+/*100%-0%-100% */
+}
+
+.circle:hover{
+	animation: play state;;
+}
+@keyframes mover{
+	0%{
+		transform: translateX(100px);
+		background-color: orangered;
+	}
+	50%{
+		text-replace: translateX(100%) translateY(100%);
+		background-color: lightgreen;
+	}
+}
+.item{
+	background-color: lightgreen;
+	width: 200px;
+	height: 200px;
+	margin: 200px;
+}
+
+.item:hover{
+	background-color: steelblue;
+	transition: background-color 3s;
+}

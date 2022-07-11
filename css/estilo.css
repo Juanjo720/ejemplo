@@ -1,0 +1,147 @@
+
+header {
+	font-family: 'Ubuntu', sans-serif;
+	font-display: flex;
+}
+
+.container-fluid {
+	display: flex;
+	background-color: lightgreen;
+	opacity: 85%;
+
+}
+.contenedor{
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+
+}
+
+*{
+	box-sizing: border-box;
+
+}
+
+.viewport {
+	background-color: steelblue;
+}
+
+.flex-container{
+	display: flex;
+	background-color: steelblue;
+	padding: 2px;
+	border: 5px solid lightgreen;
+}
+
+.texto{
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+.footer {
+	padding: 30px;
+	margin: 0px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+	border: 1px solid lightgreen;
+	background-color: steelblue;
+}
+.Redes_Sociales {
+	padding: 20px;
+	margin: 20px;
+	font-size: 50px;
+}
+
+.flex-container div{
+	width: 150px;
+	margin: 50px;
+	background-color: lightgreen;
+	opacity: 70%;
+	padding-bottom: auto;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	border: 2px solid lightgreen;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+}
+
+section {
+	margin: 0;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+	background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.ul{
+	height: 15vh;
+	color: orangered;
+	background-image: linear-gradient( top, #cfd9df 0%, #e2ebf0 100%);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: cente
+
+}
+
+h2{
+	text-align: center;
+	color: orangered;
+}
+
+h3{
+	margin: 50px;
+	padding: 30px;
+	color: brown;
+	text-align: center;
+
+}
+
+h4{
+	color: darkgreen;
+
+}
+
+p{
+	color: whitesmoke;
+}
+
+main{
+	background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+header{
+	background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	width: 1200px;
+	margin: 1px;
+	opacity: 100%;
+	padding-bottom: auto;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	border: 1px solid lightgreen;
+
+}
+

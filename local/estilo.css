@@ -1,0 +1,21 @@
+body{
+	background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.flex-container{
+	display: flex;
+	background-color: steelblue;
+	padding: 2px;
+	border: 5px solid lightgreen;
+}
+
+.flex-container div{
+	width: 150px;
+	margin: 50px;
+	background-color: lightgreen;
+	opacity: 80%;
+	padding-bottom: auto;
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	border: 2px solid lightgreen;
+}
